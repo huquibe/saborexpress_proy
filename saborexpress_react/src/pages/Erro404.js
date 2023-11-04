@@ -3,7 +3,9 @@ import React from 'react'
 export default function Erro404() {
   return (
     <div>
-        Erro404
+        <p>
+          Erro404
+        </p> 
         
     </div>
     

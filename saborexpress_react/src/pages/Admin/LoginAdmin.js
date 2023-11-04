@@ -1,10 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-export default function 
-() {
+export function LoginAdmin () {
   return (
     <div>
         <p>Estamos en LoginAdmin</p>
     </div>
-  )
+  );
 }

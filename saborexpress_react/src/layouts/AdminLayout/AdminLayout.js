@@ -1,7 +1,7 @@
 import React from 'react';
 import "./AdminLayout.scss";
 
-export  function ClientLayout(props) {
+export  function AdminLayout(props) {
     const {children} = props;
   
   return (
