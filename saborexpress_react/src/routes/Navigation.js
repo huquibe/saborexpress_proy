@@ -1,12 +1,12 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { map } from "lodash";
 import routes from "./routes";
 
 console.log(routes);
 export function Navigation() {
   return (
-    <Router> 
+    <BrowserRouter> 
       <Routes>
         {map(routes, (route, index) => (
           <Route
@@ -20,6 +20,6 @@ export function Navigation() {
           />
         ))}
       </Routes>
-    </Router>
+    </BrowserRouter>
   )
 } 
