@@ -14,7 +14,7 @@ export function Navigation() {
            path={route.path}
            element={
             <route.layout>
-              <route.component />
+              
             </route.layout>
            }
           />
