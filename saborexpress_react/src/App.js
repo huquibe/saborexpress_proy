@@ -6,7 +6,7 @@ import {AuthProvider} from './context'
 export default function App() {
   return (
     <div>
-      <h1>MENU DIGITAL Sabor Express</h1>
+      <h1 className='display: flex, justify-content: center'>MENU DIGITAL Sabor Express</h1>
       <AuthProvider>
         <Navigation/>
 

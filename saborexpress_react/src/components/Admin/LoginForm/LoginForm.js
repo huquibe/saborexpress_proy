@@ -27,8 +27,19 @@ export function LoginForm() {
   });
   return (
     <Form className="login-form-admin" onSubmit={formik.handleSubmit}>
-      <Form.Input name="email" placeholder="correo electronico" value={formik.values.email} onChange={formik.handleChange} error={formik.errors.email} />
-      <Form.Input name="password" type="Password" placeholder="Contraseña"value={formik.values.password} onChange={formik.handleChange} error={formik.errors.password} />
+      <Form.Input name="email" 
+      placeholder="correo electronico" 
+      value={formik.values.email} 
+      onChange={formik.handleChange} 
+      error={formik.errors.email} 
+      />
+      <Form.Input name="password" 
+      type="Password" 
+      placeholder="Contraseña" 
+      value={formik.values.password} 
+      onChange={formik.handleChange} 
+      error={formik.errors.password} 
+      />
         <Button type="submit" content="iniciar sesión" primary fluid />              
     </Form>
   );

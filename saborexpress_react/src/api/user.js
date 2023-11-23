@@ -25,7 +25,7 @@ export async function loginApi(formValue) {
     }
 }
 
-export async function getMeapi(token) {
+export async function getMeApi(token) {
     try{
         const url = `${BASE_API}/api/auth/me/`;
         const params = {

@@ -1,10 +1,10 @@
-import { getMeapi } from "../api/user";
+import { getMeApi } from "../api/user";
 
 
 export function useUser() {
   const getMe = async (token) => {
     try {
-        const response = await getMeapi(token);
+        const response = await getMeApi(token);
         return response;
     } catch (error) {
         throw error;
@@ -14,4 +14,4 @@ export function useUser() {
     return {
         getMe,
     };
-}
+} 

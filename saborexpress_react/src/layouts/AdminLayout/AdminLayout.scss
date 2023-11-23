@@ -1,0 +1,22 @@
+.admin-layout{
+    width: 100%;
+    display: grid;
+    grid: 55px 1fr / 1fr;
+    grid-template-areas:
+        "admin-layout-menu"
+        "admin-layout_main-content"; 
+    min-height: 100vh;
+    background-color: #f4f3ef;
+
+    &-menu{
+        grid-area: menu;
+    }
+
+    &-main-content{
+        grid-area: content;
+    }
+
+
+
+    
+}

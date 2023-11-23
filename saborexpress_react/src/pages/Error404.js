@@ -3,9 +3,9 @@ import React from 'react';
 export function Error404() {
   return (
       <div>
-          <p>
-          La pagina no existe
-          </p>
+          <h1>
+            La pagina no existe
+          </h1>
       </div>
   );
 }
